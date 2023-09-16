@@ -64,7 +64,7 @@ docker compose exec nextjs
 npm run dev
 ```
 
-3. Open your web browser and go to [http://localhost:3000](http://localhost:3000) to access the application.
+3. Open your web browser and go to [http://localhost:3001](http://localhost:3001) to access the application.
 
 ## Usage
 
