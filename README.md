@@ -43,11 +43,16 @@ npm install
 
 ### Running the Application
 
+1. Start the docker container:
+   ```bash
+   # From the project root directory
+   docker compose up
+   ```
 1. Start the backend server (NestJS):
 
 ```bash
 # From the project root directory
-cd nestjs
+docker compose exec nestjs
 npm start:dev
 ```
 
@@ -55,7 +60,7 @@ npm start:dev
 
 ```bash
 # From the project root directory
-cd nextjs
+docker compose exec nextjs
 npm run dev
 ```
 
