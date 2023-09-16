@@ -44,11 +44,11 @@ npm install
 ### Running the Application
 
 1. Start the docker container:
-   ```bash
-   # From the project root directory
-   docker compose up
-   ```
-1. Start the backend server (NestJS):
+```bash
+# From the project root directory
+docker compose up
+```
+2. Start the backend server (NestJS):
 
 ```bash
 # From the project root directory
@@ -56,7 +56,7 @@ docker compose exec nestjs
 npm start:dev
 ```
 
-2. Start the frontend development server (Next.js):
+3. Start the frontend development server (Next.js):
 
 ```bash
 # From the project root directory
@@ -64,7 +64,7 @@ docker compose exec nextjs
 npm run dev
 ```
 
-3. Open your web browser and go to [http://localhost:3001](http://localhost:3001) to access the application.
+4. Open your web browser and go to [http://localhost:3001](http://localhost:3001) to access the application.
 
 ## Usage
 
