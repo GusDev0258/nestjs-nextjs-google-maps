@@ -52,7 +52,7 @@ docker compose up
 
 ```bash
 # From the project root directory
-docker compose exec nestjs
+docker compose exec nestjs bash
 npm start:dev
 ```
 
@@ -60,7 +60,7 @@ npm start:dev
 
 ```bash
 # From the project root directory
-docker compose exec nextjs
+docker compose exec nextjs bash
 npm run dev
 ```
 
