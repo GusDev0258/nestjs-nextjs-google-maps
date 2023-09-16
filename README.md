@@ -33,11 +33,11 @@ cd nestjs-nextjs-google-maps
 
 ```bash
 # Install frontend dependencies
-cd frontend
+cd nextjs
 npm install
 
 # Install backend dependencies
-cd ../backend
+cd nestjs
 npm install
 ```
 
@@ -47,15 +47,15 @@ npm install
 
 ```bash
 # From the project root directory
-cd backend
-npm start
+cd nestjs
+npm start:dev
 ```
 
 2. Start the frontend development server (Next.js):
 
 ```bash
 # From the project root directory
-cd frontend
+cd nextjs
 npm run dev
 ```
 
